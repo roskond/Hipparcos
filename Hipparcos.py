@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
 
 
 # %%
-filepath = '/home/roshankondapalli/Documents/Textbooks1/Sci_Computing/Databases/Practice_Datasets/hipparcos-voidmain.csv'
+filepath = 'hipparcos.csv'
 data = pd.read_csv(filepath)
 data.head(10)
 
